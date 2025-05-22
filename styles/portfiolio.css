@@ -123,3 +123,36 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+/* summary Resume style */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-clomn-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.expreince-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.expriance-sub-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.exprience-description, .expriance-sub-title{
+    color: #757575;
+}
+
+.btn-download-cv{
+    margin-top: 50px;
+}
