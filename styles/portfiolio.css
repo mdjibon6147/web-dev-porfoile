@@ -16,7 +16,7 @@
 }
 
 .btn-primary {
-    position: fixed;
+    /* position: fixed; */
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
