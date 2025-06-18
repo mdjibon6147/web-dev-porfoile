@@ -183,8 +183,8 @@ main section {
 /* footer styles */
 
 footer {
-    padding: 130px 230px;
     display: flex;
+    padding: 130px 230px;
     gap: 100px;
 }
 
@@ -194,7 +194,7 @@ footer {
 }
 
 footer input[type="text"],
-[type="email"],
+footer input[type="email"],
 footer textarea {
     height: 64px;
     width: 461px;
@@ -203,4 +203,42 @@ footer textarea {
     padding: 10px 20px;
     margin: 24px;
     border: none;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skill-contener {
+        flex-direction: column;
+
+    }
+
+    .resume-container {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 40%);
+    }
+
+    .about-items {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+
+
 }
